@@ -8,6 +8,10 @@
   color: @syntax-text-color;
 }
 
+.editor {
+   font-weight: bold;
+}
+
 :host, atom-text-editor {
   .invisible-character {
     color: @syntax-invisible-character-color;
@@ -84,7 +88,6 @@
   }
 
   .storage.type {
-    font-style: italic;
     color: #65d8ee;
   }
 
@@ -94,7 +97,6 @@
   }
 
   .entity.other.inherited-class {
-    font-style: italic;
     text-decoration: underline;
     color: #A6E22E;
   }
@@ -108,7 +110,6 @@
   }
 
   .variable.parameter {
-    font-style: italic;
     color: #fec638;
   }
 
@@ -130,7 +131,6 @@
 
   .support.type,
   .support.class {
-    font-style: italic;
     color: #65d8ee;
   }
 
@@ -164,10 +164,6 @@
 
     .bold {
       font-weight: bold;
-    }
-
-    .italic {
-      font-style: italic;
     }
 
     .raw {
